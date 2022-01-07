@@ -59,7 +59,7 @@ gapi.load("plusone",{callback:window["gapi_onload"],_c:{"jsl":{"ci":{"llang":"ja
 }
 /*
      FILE ARCHIVED ON 03:49:22 Jan 01, 2015 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 01:58:00 Jan 07, 2022.
+     INTERNET ARCHIVE ON 03:08:03 Jan 07, 2022.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -67,15 +67,15 @@ gapi.load("plusone",{callback:window["gapi_onload"],_c:{"jsl":{"ci":{"llang":"ja
 */
 /*
 playback timings (ms):
-  exclusion.robots: 178.844
-  exclusion.robots.policy: 178.83
-  xauthn.identify: 140.821
-  xauthn.chkprivs: 37.825
-  cdx.remote: 0.111
-  esindex: 0.009
-  LoadShardBlock: 1097.842 (6)
-  PetaboxLoader3.datanode: 181.201 (8)
-  CDXLines.iter: 123.877 (3)
-  load_resource: 101.573 (2)
-  PetaboxLoader3.resolve: 55.851 (2)
+  exclusion.robots: 169.232
+  exclusion.robots.policy: 169.214
+  xauthn.identify: 137.622
+  xauthn.chkprivs: 31.203
+  RedisCDXSource: 1.629
+  esindex: 0.016
+  LoadShardBlock: 148.618 (6)
+  PetaboxLoader3.datanode: 130.481 (8)
+  CDXLines.iter: 116.392 (3)
+  load_resource: 153.812 (2)
+  PetaboxLoader3.resolve: 103.724 (2)
 */

@@ -171,7 +171,7 @@ __d("legacy:fb.xfbml",["Assert","sdk.Event","FB","IframePlugin","PluginConfig","
 }
 /*
      FILE ARCHIVED ON 03:49:41 Jan 01, 2015 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 01:57:53 Jan 07, 2022.
+     INTERNET ARCHIVE ON 03:07:57 Jan 07, 2022.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -179,15 +179,15 @@ __d("legacy:fb.xfbml",["Assert","sdk.Event","FB","IframePlugin","PluginConfig","
 */
 /*
 playback timings (ms):
-  exclusion.robots: 131.402
-  exclusion.robots.policy: 131.391
-  xauthn.identify: 70.883
-  xauthn.chkprivs: 60.201
-  RedisCDXSource: 7.62
-  esindex: 0.01
-  LoadShardBlock: 510.985 (6)
-  PetaboxLoader3.datanode: 509.88 (7)
-  CDXLines.iter: 118.2 (3)
-  load_resource: 309.381
-  PetaboxLoader3.resolve: 161.744
+  exclusion.robots: 168.103
+  cdx.remote: 0.21
+  PetaboxLoader3.resolve: 82.214
+  xauthn.chkprivs: 82.355
+  esindex: 0.016
+  xauthn.identify: 85.368
+  exclusion.robots.policy: 168.088
+  PetaboxLoader3.datanode: 256.3 (7)
+  LoadShardBlock: 460.024 (6)
+  CDXLines.iter: 136.645 (3)
+  load_resource: 156.792
 */
