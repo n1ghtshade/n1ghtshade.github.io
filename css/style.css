@@ -1,0 +1,732 @@
+/* CSS File - website made by Robert Prior of R and P Design, www.randpdesign.co.uk - for Zombie Farm Website, The Playforge 2010 */
+
+body {
+	background: #037408;
+	font-family: Lucida, Verdana, sans-serif;
+	font-size: 13px;
+	color: #f5deb6;
+}
+
+.clearfix {
+	width: 1px;
+	height: 1px;
+	display: block;
+	clear: both;
+	overflow: hidden;
+	content: '.';
+}
+
+a:active, input, img, submti {
+	outline: none;
+	border: 0;
+}
+
+a:focus {
+	-moz-outline-style: none;
+}
+
+.container {
+	margin: 0 auto;
+	width: 960px;
+	height: auto;
+	overflow: visible;
+}
+
+#header {
+	width: 960px;
+	height: 779px;
+	overflow: visible;
+	position: relative;
+}
+
+body.original #header-repeat {
+	background: url(../images/background.jpg) repeat-x 50%;
+	height: 779px;
+	width: 100%;
+}
+
+body.refresh #header-repeat {
+	background: url(../images/background-refresh.jpg) repeat-x 50%;
+	height: 779px;
+	width: 100%;
+}
+
+body.refresh #twitter {
+	background-image:url("../images/twitter-refresh.png");
+	height:155px;
+	padding-left:140px;
+	padding-right:20px;
+	padding-top:50px;
+	text-align:center;
+	width:155px;
+	margin-bottom: 15px;
+}
+
+body.refresh #footer {
+	background: url(../images/footer-refresh.jpg);
+	height: 230px;
+	width: 960px;
+}
+
+body.halloween #header-repeat {
+	background: url(../images/background-halloween.jpg) repeat-x 50%;
+	height: 779px;
+	width: 100%;
+}
+
+
+body.thanksgiving #header-repeat {
+	background: url(../images/background-thanksgiving.jpg) repeat-x 50%;
+	height: 779px;
+	width: 100%;
+}
+body.original ul#share {
+	display: block;
+	width: 336px;
+	height: 36px;
+	padding: 25px 45px 30px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	background-image: url(../images/social-sharing.png);
+}
+
+body.refresh ul#share {
+	display: block;
+	width: 325px;
+	height: 108px;
+	padding: 120px 77px 0px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	background-image: url(../images/social-sharing-refresh.png);
+}
+
+
+body.halloween ul#share {
+	display: block;
+	width: 336px;
+	height: 36px;
+	padding: 25px 45px 30px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	background-image: url(../images/social-sharing-halloween.png);
+}
+
+body.thanksgiving ul#share {
+	display: block;
+	width: 336px;
+	height: 36px;
+	padding: 25px 45px 30px 150px;
+	position: absolute;
+	top: 0px;
+	right: -95px;
+	background-image: url(../images/social-sharing-thanksgiving.png);
+}
+
+body.original div#zombie, body.refresh div#zombie {
+	width: 302px;
+	height: 326px;
+	outline: none;
+	border: none;
+	background-image: url(../images/characters.png);
+	position: absolute;
+	left: -20px;
+	top: 320px;
+	z-index: 100;
+}
+
+body.halloween div#zombie {
+	width: 302px;
+	height: 326px;
+	outline: none;
+	border: none;
+	background-image: url(../images/halloween-characters.png);
+	position: absolute;
+	left: -20px;
+	top: 320px;
+	z-index: 100;
+}
+
+body.thanksgiving div#zombie {
+	width: 302px;
+	height: 366px;
+	outline: none;
+	border: none;
+	background-image: url(../images/thanksgiving-characters.png);
+	position: absolute;
+	left: -20px;
+	top: 320px;
+	z-index: 100;
+}
+
+body.original #board, body.refresh #board {
+	position: absolute;
+	height: 257px;
+	width: 217px;
+	top: 250px;
+	right: 0;
+	padding: 54px 44px 120px 44px;
+	background-image: url(../images/news-board.png);
+	text-align: center;
+}
+
+body.halloween #board {
+	position: absolute;
+	height: 257px;
+	width: 217px;
+	top: 250px;
+	right: 0;
+	padding: 54px 44px 120px 44px;
+	background-image: url(../images/news-board-halloween.png);
+	text-align: center;
+}
+
+body.thanksgiving #board {
+	position: absolute;
+	height: 257px;
+	width: 217px;
+	top: 250px;
+	right: 0;
+	padding: 54px 44px 120px 44px;
+	background-image: url(../images/news-board-thanksgiving.png);
+	text-align: center;
+}
+
+body.halloween #footer {
+	background: url(../images/footer-halloween.jpg);
+	height: 230px;
+	width: 960px;
+} 
+
+body.original #footer, body.thanksgiving #footer {
+	background: url(../images/footer.jpg);
+	height: 230px;
+	width: 960px;
+}
+
+body.thanksgiving #app-store {
+	background: url(../images/app-store-link-thanksgiving.jpg);
+	display: block;
+	height: 101px;
+	left: 242px;
+	position: relative;
+	text-indent: -9999px;
+	top: 581px;
+	width: 416px;
+	z-index: 1;
+}
+
+#logo {
+	background-image: url(../images/logo.png);
+	height: 254px;
+	width: 398px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+#tagline {
+	background-image: url(../images/tagline.png);
+	width: 555px;
+	height: 94px;
+	float: left;
+	text-indent: -9999px;
+}
+
+#iphone {
+	background-image: url(../images/iphone.jpg);
+	width: 376px;
+	height: 428px;
+	margin-top: 1px;
+	float: left;
+}
+
+#iphone-video {
+	background-image: url(../images/iphone.png);
+	height: 241px;
+	width: 396px;
+	top: 276px;
+	left: 80px;
+	position: absolute;
+	padding: 37px 191px;
+}
+
+#iphone img {
+	margin-top: 69px;
+	margin-left: 6px;
+}
+
+#app-store {
+	background: url(../images/app-store-link.jpg);
+	display: block;
+	height: 101px;
+	left: 242px;
+	position: relative;
+	text-indent: -9999px;
+	top: 581px;
+	width: 416px;
+	z-index: 1;
+}
+
+#app-store:hover, body.thanksgiving #app-store:hover {
+	background-position: 0 -101px;
+}
+
+#app-store:active, body.thanksgiving #app-store:active {
+	background-position: 0 -202px;
+}
+
+#col-app-store {
+	background: url(../images/column-app-link.jpg);
+	display: block;
+	height: 60px;
+	text-indent: -9999px;
+	width: 261px;
+	margin-top: 20px;
+}
+
+#col-app-store:hover {
+	background-position: 0 -60px;
+}
+
+#col-app-store:active {
+	background-position: 0 -120px;
+}
+
+#facebook-link {
+	background: url(../images/facebook-link.jpg);
+	display: block;
+	height: 60px;
+	text-indent: -9999px;
+	width: 261px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#facebook-link:hover {
+	background-position: 0 -60px;
+}
+
+#facebook-link:active {
+	background-position: 0 -120px;
+}
+
+#twitter-link {
+	background: url(../images/twitter-link.jpg);
+	display: block;
+	height: 60px;
+	text-indent: -9999px;
+	width: 261px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+
+#twitter-link:hover {
+	background-position: 0 -60px;
+}
+
+#twitter-link:active {
+	background-position: 0 -120px;
+}
+
+#support-link {
+	background: url(../images/support-link.jpg);
+	display: block;
+	height: 60px;
+	text-indent: -9999px;
+	width: 261px;
+	margin-top: 30px;
+}
+
+#support-link:hover {
+	background-position: 0 -60px;
+}
+
+#support-link:active {
+	background-position: 0 -120px;
+}
+
+body.refresh #playforge {
+	display: block;
+	background: url(../images/playforge-link-refresh.png);
+	height: 208px;
+	text-indent: -9999px;
+	width: 185px;
+	left: 40px;
+	position: relative;
+}
+
+#playforge {
+	display: block;
+	background: url(../images/playforge.png);
+	height: 208px;
+	text-indent: -9999px;
+	width: 185px;
+	left: 40px;
+	position: relative;
+}
+
+#playforge:hover, body.refresh #playforge:hover  {
+	background-position: 0 -208px;
+}
+
+#playforge:active, body.refresh #playforge:active  {
+	background-position: 0 -416px;
+	top: 0;
+}
+
+#content-repeat {
+	background: url(../images/body-repeat.jpg);
+	height: auto;
+	width: 100%;
+	padding-bottom: 15px;
+}
+
+#content-2col {
+	background: url(../images/body-2col.jpg) repeat-y;
+	height: auto;
+	width: 960px;
+}
+
+#content-3col {
+	background: url(../images/body-3col.jpg) repeat-y;
+	height: auto;
+	width: 960px;
+	padding-bottom: 5px;
+}
+
+.column {
+	float: left;
+	height: auto;
+	width: 260px;
+	padding: 20px;
+	margin-right: 30px;
+	position: relative;
+}
+
+#footer .column {
+	height: 215px;
+	margin-bottom: 20px;
+}
+
+.left {
+	width: 590px;
+}
+
+.right {
+	margin-right: 0px;
+}
+
+#footer-repeat {
+	background: url(../images/foot-repeat.jpg) repeat-x;
+	height: 230px;
+	width: 100%;
+}
+
+#footer p {
+	color: #37b63d;
+	font-size: 12px;
+	text-align: center;
+	width: 260px;
+}
+
+.link {
+	float: right;
+}
+
+.foot {
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 0;
+}
+
+.column.right a.foot {
+	right: 20px;
+}
+
+
+.column ul {
+	margin-bottom: 15px;
+}
+
+.column li {
+	color: #ffebc8;
+	font-weight: bold;
+	padding-bottom: 10px;
+	list-style-image: url(../images/brain-bullet.png);
+	list-style-position: inside;
+}
+
+.lightbox img {
+	height: auto;
+	width: auto;
+	padding: 1px;
+	background: black;
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-top: 7px;
+	margin-bottom: 7px;
+	border: 5px solid white;
+}
+
+.lightbox img:hover {
+	border-color: #997147;
+}
+
+#board p {
+	color: #3f220c;
+	text-shadow: none;
+}
+
+#board ul {
+	margin-bottom: 10px;
+}
+
+#board li {
+	color: #661522;
+	font-weight: bold;
+	padding-bottom: 5px;
+	text-shadow: #cebb98 1px 1px 0;
+}
+
+ul#share {
+	display: block;
+	width: 336px;
+	height: 36px;
+	padding: 25px 45px 30px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	background-image: url(../images/social-sharing-bkg.png);
+}
+
+ul#share li { float: left; list-style: none; margin-left: 10px; }
+
+.social {
+	margin-top: 20px;
+	width: 110px;
+	cursor: pointer;
+	float: left;
+}
+
+
+/* @group twitter */
+
+#twitter {
+	background-image:url("../images/twitter.png");
+	height:155px;
+	padding-left:140px;
+	padding-right:20px;
+	padding-top:50px;
+	text-align:center;
+	width:155px;
+	margin-bottom: 15px;
+}
+
+.tweet_text {
+	font-size: 11px;
+	font-weight: normal;
+  	line-height: 1.3;
+	color: #433f40;
+}
+
+ #twitter .tweet_list {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ #twitter .tweet_list li {
+    list-style-image: none;
+}
+
+ #twitter .tweet_list li a {
+ 	color: #4d7bb4; 
+ 	display: block;
+ 	margin-bottom: 3px;
+ 	text-shadow: none;
+ }
+ 
+ #twitter .tweet_list li a:hover {
+	color: #355983;
+}
+
+/* @end */
+
+/* @group Rollovers States */
+
+a {
+	color: #47732d;
+	background: none;
+	font-weight: bold;
+	text-shadow: black 1px 1px 0;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #5e9c3d;
+	text-shadow: black 1px 1px 0;
+}
+
+a:active {
+	top: 1px;
+	position: relative;
+}
+
+#board a {
+	color: #30511d;
+	text-shadow: #cebb98 1px 1px 0;
+	text-decoration: none;
+	font-size: 22px;
+	font-variant: small-caps;
+}
+
+#board a:hover {
+	color: #5b8029;
+}
+
+#footer a {
+	color: #37b63d;
+	font-size: 12px;
+}
+
+#footer a:hover {
+	color: #56c855;
+}
+
+a.faq-link  {
+	color: #A33DA2;
+}
+
+a.faq-link:hover {
+	color: #c54bc4;
+}
+
+/* @end */
+
+/* @group Text Styles and Headings */
+
+p {
+	letter-spacing: 0.3px;
+	margin-bottom: 15px;
+	line-height: 1.4;
+	text-shadow: black 1px 1px 0;
+}
+
+h1 {
+	font-size: 38px;
+	font-weight: bold;
+	text-indent: -9999px;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+h2 {
+	font-size: 30px;
+	text-indent: -9999px;
+	position: relative;
+	top: -10px;
+	left: -40px;
+	height: 88px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.title {
+	font-variant: small-caps;
+	color: #a46fc3;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.question {
+	color: #fdf4d9;
+	font-weight: bold;
+	font-size: 20px;
+	font-variant: small-caps;
+	text-shadow: #271e14 1px 1px 0;
+}
+
+#latest-news {
+	background-image: url(../images/headings/latest-news.png);
+	width: 341px;
+}
+
+#description {
+	background-image: url(../images/headings/description.png);
+	width: 341px;
+}
+
+#description-long {
+	background-image: url(../images/headings/description-long.png);
+	width: 671px;
+}
+
+#screenshots {
+	background-image: url(../images/headings/screenshots.png);
+	width: 341px;
+}
+
+#comics {
+	background-image: url(../images/headings/comics.png);
+	width: 341px;
+}
+
+#reviews {
+	background-image: url(../images/headings/reviews.png);
+	width: 341px;
+}
+
+#community {
+	background-image: url(../images/headings/community.png);
+	width: 341px;
+}
+
+#faqs {
+	background-image: url(../images/headings/faq.png);
+	width: 341px;
+}
+
+#faq {
+	background-image: url(../images/headings/faq-long.png);
+	width: 671px;
+}
+
+h4 {
+	font-size: 30px;
+	text-indent: -9999px;
+	position: relative;
+	width: 220px;
+	height: 30px;
+	margin-bottom: 3px;
+}
+
+#latest {
+	background-image: url(../images/headings/latest.jpg);
+}
+
+h5 {
+	font-size: 24px;
+	text-indent: -9999px;
+	height: 93px;
+	width: 550px;
+	float: left;
+}
+
+h5#six-million {
+	background-image: url(../images/6-million.png);
+	position: absolute;
+	right: 0px;
+	top: 110px;
+}
+
+
+
+/* @end */
